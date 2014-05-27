@@ -21,6 +21,8 @@
 		CB8DB94B192C7A03005A0E47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8DB92D192C7A03005A0E47 /* UIKit.framework */; };
 		CB8DB953192C7A03005A0E47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB8DB951192C7A03005A0E47 /* InfoPlist.strings */; };
 		CB8DB955192C7A03005A0E47 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8DB954192C7A03005A0E47 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionsTests.m */; };
+		CB8DB960193310D5005A0E47 /* KDSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8DB95F193310D5005A0E47 /* KDSignInViewController.m */; };
+		CB8DB963193310DF005A0E47 /* KDCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8DB962193310DF005A0E47 /* KDCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		CB8DB950192C7A03005A0E47 /* NSUserDefaults, Segues and Protocols Challenge SolutionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaults, Segues and Protocols Challenge SolutionsTests-Info.plist"; sourceTree = "<group>"; };
 		CB8DB952192C7A03005A0E47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB8DB954192C7A03005A0E47 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionsTests.m; sourceTree = "<group>"; };
+		CB8DB95E193310D5005A0E47 /* KDSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSignInViewController.h; sourceTree = "<group>"; };
+		CB8DB95F193310D5005A0E47 /* KDSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSignInViewController.m; sourceTree = "<group>"; };
+		CB8DB961193310DF005A0E47 /* KDCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDCreateAccountViewController.h; sourceTree = "<group>"; };
+		CB8DB962193310DF005A0E47 /* KDCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				CB8DB938192C7A03005A0E47 /* KDAppDelegate.h */,
 				CB8DB939192C7A03005A0E47 /* KDAppDelegate.m */,
 				CB8DB93B192C7A03005A0E47 /* Main.storyboard */,
+				CB8DB95E193310D5005A0E47 /* KDSignInViewController.h */,
+				CB8DB95F193310D5005A0E47 /* KDSignInViewController.m */,
+				CB8DB961193310DF005A0E47 /* KDCreateAccountViewController.h */,
+				CB8DB962193310DF005A0E47 /* KDCreateAccountViewController.m */,
 				CB8DB93E192C7A03005A0E47 /* KDViewController.h */,
 				CB8DB93F192C7A03005A0E47 /* KDViewController.m */,
 				CB8DB941192C7A03005A0E47 /* Images.xcassets */,
@@ -251,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8DB940192C7A03005A0E47 /* KDViewController.m in Sources */,
+				CB8DB960193310D5005A0E47 /* KDSignInViewController.m in Sources */,
 				CB8DB936192C7A03005A0E47 /* main.m in Sources */,
 				CB8DB93A192C7A03005A0E47 /* KDAppDelegate.m in Sources */,
+				CB8DB963193310DF005A0E47 /* KDCreateAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
